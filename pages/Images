@@ -1,0 +1,15 @@
+from appium.webdriver.common.appiumby import AppiumBy
+import Amazon.utilities.CustomLogger as cl
+from Amazon.base.BasePage import BasePage
+
+
+class Image(BasePage):
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.driver = driver
+
+    def image_findelement(self):
+
+
+
+

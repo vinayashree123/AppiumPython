@@ -1,0 +1,2 @@
+[32mINFO    [0m __init__:BasePage.py:65 Clicked the Element found with Locatorvalue Search Amazon.in and with locatorType text
+[32mINFO    [0m __init__:BasePage.py:65 Clicked the Element found with Locatorvalue in.amazon.mShop.android.shopping:id/iss_btn_flk and with locatorType id

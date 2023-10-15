@@ -1,0 +1,3 @@
+[32mINFO    [0m __init__:BasePage.py:63 Clicked the Element found with Locatorvalue Search Amazon.in and with locatorType text
+[32mINFO    [0m __init__:BasePage.py:73 text send on the Element found with Locatorvalue in.amazon.mShop.android.shopping:id/rs_search_src_text and with locatorType id
+[32mINFO    [0m __init__:BasePage.py:63 Clicked the Element found with Locatorvalue iphone 14 and with locatorType text

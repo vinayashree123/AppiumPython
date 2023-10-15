@@ -1,0 +1,1 @@
+[32mINFO    [0m __init__:BasePage.py:100 Screenshot saved: ../screenshots/addtocart_18_08_23_18_46_02.png

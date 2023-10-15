@@ -1,0 +1,4 @@
+[32mINFO    [0m __init__:BasePage.py:128 Clicked the Element found with locator_value Select English and with locator_type des
+[32mINFO    [0m __init__:BasePage.py:286 Tap gesture performed at coordinates: (518, 1428)
+[32mINFO    [0m __init__:BasePage.py:128 Clicked the Element found with locator_value Search Amazon.in and with locator_type text
+[32mINFO    [0m __init__:BasePage.py:404 Images have different dimensions. Cannot compare.

@@ -1,0 +1,1 @@
+[32mINFO    [0m __init__:BasePage.py:83  Element found with Locatorvalue Search Amazon.in and with locatorType textis displayed

@@ -1,0 +1,2 @@
+[32mINFO    [0m __init__:BasePage.py:63 Clicked the Element found with Locatorvalue //android.widget.ImageView[@content-desc="Select English"] and with locatorType xpath
+[32mINFO    [0m __init__:BasePage.py:178 Tap gesture performed at coordinates: (518, 1428)

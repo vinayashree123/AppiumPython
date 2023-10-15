@@ -1,0 +1,1 @@
+[32mINFO    [0m __init__:BasePage.py:65 Clicked the Element found with Locatorvalue Delete and with locatorType text

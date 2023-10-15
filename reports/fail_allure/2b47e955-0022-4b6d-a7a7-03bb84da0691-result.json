@@ -1,0 +1,1 @@
+{"name": "test_LaunchHomePage", "status": "passed", "steps": [{"name": "App Launched", "status": "passed", "start": 1692604012954, "stop": 1692604012954}], "start": 1692604012954, "stop": 1692604015910, "uuid": "298d2501-b414-4c91-96cf-708b3b7953ba", "testCaseId": "1d705556670f263c009b5a7d1265d489", "fullName": "test_home_page.HomePageTest#test_LaunchHomePage"}

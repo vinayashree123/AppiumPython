@@ -1,0 +1,1 @@
+[32mINFO    [0m __init__:BasePage.py:92 Unable to send text becz Element not found with Locatorvalue Search Amazon.in and with locatorType textis not displayed

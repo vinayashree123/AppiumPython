@@ -1,0 +1,26 @@
+[32mINFO    [0m __init__:BasePage.py:65 Clicked the Element found with Locatorvalue Search Amazon.in and with locatorType text
+[32mINFO    [0m __init__:BasePage.py:77 text send on the Element found with Locatorvalue in.amazon.mShop.android.shopping:id/rs_search_src_text and with locatorType id
+[1m[31mERROR   [0m __init__:BasePage.py:67 Unable to click Element not found with Locatorvalue iphone 14 and with locatorType text
+[1m[31mERROR   [0m __init__:BasePage.py:68 Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\vnaganur\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\vnaganur\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\vnaganur\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+Traceback (most recent call last):
+  File "C:\Users\vnaganur\PycharmProjects\appium\Amazon\base\BasePage.py", line 63, in clickElement
+    element = self.WaitForElement(locatorvalue, locatorType)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vnaganur\PycharmProjects\appium\Amazon\base\BasePage.py", line 39, in WaitForElement
+    element = wait.until(lambda x: x.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'text("%s")' % locatorvalue))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\vnaganur\PycharmProjects\appium\venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\vnaganur\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\vnaganur\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\vnaganur\AppData\Roaming\npm\node_modules\appium\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
